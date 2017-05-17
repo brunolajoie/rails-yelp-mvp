@@ -4,6 +4,6 @@
 <p>Phone: <%= @restaurant.phone_number %></p>
 <p>Category: <%= @restaurant.category %></p>
 
-<%= link_to "Index", restaurants_path %>
-<%= link_to "Add review", new_restaurant_review_path(@restaurant) %>
+<%= link_to "Index", restaurants_path, class: "btn btn-primary"%>
+<%= link_to "Add review", new_restaurant_review_path(@restaurant), class: "btn btn-primary" %>
 
